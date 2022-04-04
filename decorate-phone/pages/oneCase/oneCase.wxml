@@ -1,0 +1,11 @@
+<!--pages/oneCase/oneCase.wxml-->
+<view class="case-container">
+  <view class="cover-content">
+    <image src="{{case[0].img}}" class="cover"></image>
+  </view>
+  <view class="title">{{case[0].name}}</view>
+  <view class="time">{{case[0].created_at}}</view>
+  <view class="content">
+    <rich-text nodes="{{case[0].content}}"></rich-text>
+  </view>
+</view>

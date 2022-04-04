@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/case/case",
+    "pages/us/us",
+    "pages/oneCase/oneCase"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA500",
+    "navigationBarTitleText": "创客装修",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#FFA500",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/bar/shouye0.jpeg",
+        "selectedIconPath": "/images/bar/shouye1.jpeg"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "快速预约",
+        "iconPath": "/images/bar/order0.jpeg",
+        "selectedIconPath": "/images/bar/order1.jpeg"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "text": "项目案例",
+        "iconPath": "/images/bar/shouye0.jpeg",
+        "selectedIconPath": "/images/bar/shouye1.jpeg"
+      },
+      {
+        "pagePath": "pages/us/us",
+        "text": "关于我们",
+        "iconPath": "/images/bar/us0.jpeg",
+        "selectedIconPath": "/images/bar/us1.jpeg"
+      }
+    ]
+  }
+}

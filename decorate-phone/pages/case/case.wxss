@@ -1,0 +1,58 @@
+/* pages/case/case.wxss */
+.case-container {
+  height: 235px;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.content {
+  width: 90%;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.name {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  /* background-color: pink; */
+  margin: 10px 10px 0px 10px;
+  font-family: 等线;
+  font-size: 18px;
+}
+
+.desc {
+  /* background-color: pink; */
+  font-family: 等线;
+  font-size: 16px;
+  color: #696969;
+  margin: 0 10px 5px;
+}
+
+.img-container {
+  width: 100%;
+  height: 150px;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 270px;
+  height: 150px;
+  display: block;
+}
+
+.date{
+  font-family: 等线;
+  font-size: 13px;
+  color: #696969;
+  margin: 5px 10px 5px;
+  float: right;
+}

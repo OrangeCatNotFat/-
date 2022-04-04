@@ -1,0 +1,15 @@
+<!--pages/case/case.wxml-->
+<block wx:for="{{allCase}}">
+  <navigator open-type="navigate" url="../oneCase/oneCase?id={{item.id}}">
+    <view class="case-container">
+      <view class="content">
+        <view class="name">{{item.name}}</view>
+        <view class="desc">{{item.desc}}</view>
+        <view class="img-container">
+          <image class="img" src="{{item.img}}"></image>
+        </view>
+        <view class="date">{{item.created_at}}</view>
+      </view>
+    </view>
+  </navigator>
+</block>
